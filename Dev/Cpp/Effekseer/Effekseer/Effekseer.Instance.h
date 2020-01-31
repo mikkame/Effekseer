@@ -91,6 +91,9 @@ public:
 	Vector3D	m_GlobalRevisionLocation;
 	Vector3D	m_GlobalRevisionVelocity;
 	
+	//! modify with noise
+	Vector3D noiseRevision_;
+
 	// Color for binding
 	Color		ColorInheritance;
 
